@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_section{
+    border-bottom: 1px solid rgb(192, 172, 172);
+}
+.header{
+width: 90%;
+margin-left: 5%;
+overflow: hidden;
+padding: 10px 0;
+}
+.logo{
+width: 20%;
+float: left;
+}
+.logo img{
+width: 30%;
+}
+nav{
+width: 40%;
+float: right;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+float: left;
+margin-left: 35px;
+font-size: 20px;
+color: rgb(48, 46, 46);
+padding: 10px 0;
+}
+.content_section{
+width: 60%;
+margin-left: 20%;
+text-align: center;
+}
+.content_section h1{
+font-size: 50px;
+text-transform: capitalize;
+color: #414D67;
+margin-top: 30px;
+}
+.content_section h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #0187FF;
+    margin: 15px 0;
+}
+.content_section p{
+font-size: 18px;
+margin: 20px 0;
+color: #476A8A;
+}
+.content_section img{
+
+}
+.content2{
+width: 70%;
+margin: auto;
+overflow: hidden;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+.left_content{
+width: 48%;
+float: left;
+text-align: right;
+}
+.left_content h1{
+color: #E85A66;
+font-size: 50px;
+}
+.left_content p{
+font-size: 18px;
+color: #43133B;
+}
+.right_content{
+    width: 48%;
+    float: right;
+}
+.right_content h1{
+    font-size: 47px;
+    color: #1B305D;
+}
+.article{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.article_one{
+    width: 24%;
+    float: left;
+    background-color: #FEEBED;
+    padding: 50px 30px;
+}
+.article_two{
+    width: 24%;
+    float: left;
+    background-color: #EAF9F4;
+    margin-left: 7%;
+    padding: 50px 30px;
+
+}
+.article_three{
+
+    width: 24%;
+    float: right;
+    background-color: #FFF8E8;
+    padding: 50px 30px;
+}
+.article_one img, .article_two img,
+.article_three img{
+     width: 100%;
+}
+.article_one h2,
+.article_two h2,
+.article_three h2{
+    text-align: left;
+    color: #082B65;
+    margin: auto;}
+.article_one p,
+.article_two p,
+.article_three p{
+    text-align: left;
+    color: #082B65;
+    margin-top: 10px;
+}
+footer{
+background-color: #008aff;
+text-align: center;
+padding: 50px 0;
+}
+footer p{
+color: #61CEFF;
+}
+footer p span{
+color: #FFF8E8;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 1px;
+}
